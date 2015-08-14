@@ -1,5 +1,5 @@
 {
-  "name": "spartaksun/orient-db-query",
+  "name": "spartaksun/orientdb-query",
   "type": "package",
   "description": "Shell for Doctrine\\OrientDB Query subpackage",
   "minimum-stability": "dev",
