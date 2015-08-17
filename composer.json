@@ -1,7 +1,7 @@
 {
   "name": "spartaksun/orientdb-query",
   "type": "package",
-  "description": "Shell for Doctrine\\OrientDB Query subpackage",
+  "description": "Wrapper for Doctrine\\OrientDB Query subpackage",
   "minimum-stability": "dev",
   "license": "Apache-2.0",
   "require": {
