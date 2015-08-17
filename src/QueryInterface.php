@@ -107,6 +107,7 @@ interface QueryInterface
      *
      * @param array   $target
      * @param boolean $append
+     * @return $this
      */
     public function from(array $target, $append);
 
@@ -256,6 +257,7 @@ interface QueryInterface
      *
      * @param string  $condition
      * @param mixed   $value
+     * @return $this
      */
     public function orWhere($condition, $value);
 
@@ -335,6 +337,7 @@ interface QueryInterface
      *
      * @param string  $condition
      * @param mixed   $value
+     * @return $this
      */
     public function where($condition, $value = null);
 }
