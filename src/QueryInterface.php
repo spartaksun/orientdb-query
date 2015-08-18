@@ -11,6 +11,8 @@
 namespace Doctrine\OrientDB\Query;
 
 
+use Doctrine\OrientDB\Query\Command\UpdateInterface;
+
 interface QueryInterface
 {
     /**
@@ -328,8 +330,18 @@ interface QueryInterface
      */
     public function unindex($property, $class);
 
+    /**
+     * @param array $values
+     * @param $class
+     * @param $append
+     * @return UpdateInterface
+     */
     public function put(array $values, $class, $append);
 
+    /**
+     * @param $class
+     * @return UpdateInterface
+     */
     public function update($class);
 
     /**
